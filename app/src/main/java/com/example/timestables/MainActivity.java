@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         timesView = (ListView) findViewById(R.id.timesListView);
         SeekBar setNumber = (SeekBar) findViewById(R.id.seekBar);
-        setNumber.setMax(11);
+        setNumber.setMax(19);
         updateTimesView(0);
         setNumber.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
